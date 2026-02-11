@@ -1,5 +1,5 @@
 import java.io.*;
-public class ReadFromFiile {
+public class ReadFromFile {
     public static void main(String[] args) {
        BufferedReader br = new BufferedReader(new FileReader("input.txt"));
 int a = Integer.parseInt(br.readLine());
