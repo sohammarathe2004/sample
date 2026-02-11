@@ -7,6 +7,7 @@ int a = Integer.parseInt(br.readLine());
 int b = Integer.parseInt(br.readLine());
 br.close();
   System.out.println("Sum:"+(a+b));
-    }}
-    catch(Exception e){System.out.println("Error:"+e.getMessage();}
-}
+    }
+    catch(Exception e){
+        System.out.println("Error:"+e.getMessage();}
+}}
